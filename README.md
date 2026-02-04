@@ -1,40 +1,33 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+​EduTriGen: AI-Powered Exam System
 
-## Getting Started
+​EduTriGen is a full-stack platform designed to automate the academic assessment lifecycle. By leveraging the Gemini API and Machine Learning, it simplifies question generation, descriptive answer grading, and real-time proctoring for educators and students alike.  
+​🚀 Key Features
+​AI Question Generation: Automatically generates MCQs and descriptive questions from raw study materials.  
+​Intelligent Evaluation: Evaluates descriptive answers using NLP for semantic similarity and accuracy.  
+​Role-Based Dashboards: Secure portals for Admins, Faculty, and Students to manage courses and submissions.  
+​Automated Proctoring: Real-time monitoring to ensure exam integrity.  
+​🛠️ Tech Stack
+​Frontend: Next.js, React, Tailwind CSS  
+​Backend: Node.js, Express.js  
+​AI/ML: Gemini API, Python, OpenCV  
+​Database: MongoDB  
+​🏃 How to Run Locally
 
-First, run the development server:
+1. Clone the Repository:
+git clone https://github.com/samiya2804/EduTriGen.git
+cd EduTriGen
 
-```bash
+2. Install Dependencies:
+npm install
+
+3. Set Up Environment Variables:
+Create a .env file in the root directory and add your keys:
+GEMINI_API_KEY=your_key_here
+MONGODB_URI=your_mongodb_uri
+
+4. Start the Development Server:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# AI-Exam-System
->>>>>>> 528f94164fe21fe3ecdb32b648e2f56603d4cd7c
+⚠️ Important Note on Deployment
+​Note: This application is currently hosted on a free-tier server (e.g., Vercel/Render). Please allow 30-60 seconds for the initial cold start or for the AI models to process requests. Thank you for your patience while the demo initializes!
