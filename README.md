@@ -29,5 +29,9 @@ MONGODB_URI=your_mongodb_uri
 npm run dev
 
 
+Demo:  https://exam-system-hj40c999o-samiyas-projects-a667c22f.vercel.app/
+
+
+
 ⚠️ Important Note on Deployment
 ​Note: This application is currently hosted on a free-tier server (e.g., Vercel/Render). Please allow 30-60 seconds for the initial cold start or for the AI models to process requests. Thank you for your patience while the demo initializes!
